@@ -3,6 +3,14 @@ import numpy as np
 import pandas as pd
 import gc
 
+###################################################################
+
+# Compute logl_ss for GWAS summary data based on ADAM optimization
+
+####################################################################
+
+
+
 def calc_logl (sum_data_batch, t_p, annot_ldscores):
 
     #Maybe apply multiprocessing here
